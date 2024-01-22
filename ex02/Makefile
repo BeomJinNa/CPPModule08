@@ -6,14 +6,13 @@ COMMONFLAGS	=
 CXXFLAGS	= $(COMMONFLAGS) -Wall -Wextra -Werror -std=c++98
 LDFLAGS		= $(COMMONFLAGS)
 
-NAME	= ex01
+NAME	= ex02
 INCLUDE	=
 
 
 #sources=======================================================================
 
-SRCS	= main.cpp \
-		  Span.cpp
+SRCS	= main.cpp
 
 OBJS	= $(SRCS:.cpp=.o)
 
